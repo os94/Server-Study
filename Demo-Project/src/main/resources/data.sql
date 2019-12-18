@@ -1,0 +1,1 @@
+insert into article (title) values ('ex-title');

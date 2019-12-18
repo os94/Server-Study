@@ -17,4 +17,8 @@ public class ArticleService {
         );
         articleRepository.save(article);
     }
+
+    public Article findArticleById(Long id) {
+        return articleRepository.findArticleById(id);
+    }
 }
